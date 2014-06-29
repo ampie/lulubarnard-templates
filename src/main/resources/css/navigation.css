@@ -1,0 +1,133 @@
+ .navigation {
+	position:relative;
+}
+ .navigation .navbar {
+	background-repeat: no-repeat;
+	float: left;
+}
+ .navigation .navbar ul.navmenu {
+	margin: 0;
+	list-style: none
+}
+ .navigation .navbar ul.navmenu li {
+	float: left;
+	line-height: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position:relative;
+	z-index:898;
+	margin: 0;
+}
+  .navigation .navbar ul.navmenu li ul li {
+	display: block;
+	float: none;
+}
+ .navigation .navbar ul.navmenu li a {
+	color: #ffffff;
+	font-size:11px;
+	height: 45px;
+	display:block;
+	line-height: 40px;
+	white-space:pre;
+    /*text-shadow: 0 1px 0 #FFFFFF;*/
+    text-transform: uppercase;
+}
+
+ .navigation .navbar ul.navmenu li.hasChildren:hover {
+	/*background-image: url(img/arrow-down-hover.png);
+ 	background-color: #000000;
+	background-repeat: repeat-x;
+	background-position: 30% 60%;
+	border-color: #333;
+	line-height: 40px;
+	position: relative;
+	z-index:899;*/
+}
+
+ .navigation .navbar ul.navmenu li.noChildren:hover {
+	/*background-image: url(img/noarrow-down-hover.png);
+	background-color: #000000;
+	background-repeat: repeat-x;
+	background-position: 30% 60%;
+	border-color: #333;	
+	line-height: 40px;
+	position: relative;
+	z-index:899;*/
+}
+ .navigation .navbar ul.navmenu li.hasChildren:hover a,
+ .navigation .navbar ul.navmenu li.noChildren:hover a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ .navigation .navbar ul.navmenu li.hasChildren:hover div,
+ .navigation .navbar ul.navmenu li.noChildren:hover div {
+	display: block;
+	margin-top: -1px;
+}
+ .navigation .navbar ul.navmenu li.hasChildren:hover div ul li a,
+ .navigation .navbar ul.navmenu li.noChildren:hover div ul li a {
+	font-size:11px;
+	color: #3b3b3a;
+	white-space: normal
+}
+ .navigation .navbar ul.navmenu li.hasChildren {
+	/*background-image: url(img/arrow-down.png);
+	background-repeat: no-repeat; 
+	background-position: 40% 60%;
+	position: relative;*/
+}
+ .navigation .navbar ul.navmenu li.hasChildren a {
+	color: #ffffff;
+}
+ .navigation .navbar ul.navmenu li.selected a,
+ .navigation .navbar ul.navmenu li.inPath a {
+	color: #82cb3e;
+}
+ .navigation .navbar ul.navmenu li.hasChildren div {
+	display: none;
+	left: -1px;
+	top: 40px;
+	border: 1px solid #82cb3e;
+	position: absolute;
+	z-index:999;
+}
+
+ .navigation .navbar ul.navmenu li.hasChildren div ul {
+	list-style: none;
+	padding: 10px 4px;
+	width: 200px;
+	background-color: #ffffff;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	margin:0px;
+
+}
+
+ .navigation .navbar ul.navmenu li.hasChildren div ul li {
+	padding: 5px;
+	padding-left: 10px;
+	line-height: 20px;
+	width:200px;
+}
+ .navigation .navbar ul.navmenu li.hasChildren div ul li a {
+	color: #333;
+	line-height: 20px;
+	height: auto;
+	display:block;
+}
+ .navigation .navbar ul.navmenu li.hasChildren div ul li.selected a {
+	color: #9D50CA;
+}
+ .navigation .navbar ul.navmenu li.hasChildren div ul li a:hover {
+	color: #9D50CA;
+	text-decoration: none;
+}
+
+ .navigation .navbar ul.level_2 li.hasChildren:hover,
+ .navigation .navbar ul.level_2 li.noChildren:hover {
+	background-image: none;
+	background-color: transparent;
+	border: none;
+	line-height: 20px;
+	position: inherit;
+}

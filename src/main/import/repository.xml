@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <modules jcr:primaryType="jnt:modules">
+        <lulubarnard-templates changefreq="monthly"
+                           j:dependencies="blog calendar default default-skins event facets grid news profile rating search sitemap skins"
+                           j:installedModules="Jahia Space Templates Web"
+                           j:modulePriority="0"
+                           j:moduleType="templatesSet"
+                           j:title="Jahia Web Templates Space"
+                           jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sitemap"
+                           jcr:primaryType="jnt:module"
+                           priority="0.5">
+                
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder">
+                    <Ifu_lobunto_logo_web.gif j:height="59"
+                                      j:width="192"
+                                      jcr:mixinTypes="jmix:image"
+                                      jcr:primaryType="jnt:file">
+                        <jcr:content jcr:mimeType="image/gif" jcr:primaryType="jnt:resource"/>
+                        <thumbnail jcr:mimeType="application/binary" jcr:primaryType="jnt:resource"/>
+                        <thumbnail2 jcr:mimeType="application/binary" jcr:primaryType="jnt:resource"/>
+                    </Ifu_lobunto_logo_web.gif>
+                </files>
+                <contents jcr:primaryType="jnt:contentFolder"/>
+                <templates jcr:primaryType="jnt:templatesFolder">
+                    <files jcr:primaryType="jnt:folder">
+                        <themes jcr:primaryType="jnt:folder">
+                            <default jcr:primaryType="jnt:folder"/>
+                            <theme-orange jcr:primaryType="jnt:folder">
+                                <theme-orange jcr:primaryType="jnt:folder">
+                                    <img jcr:primaryType="jnt:folder"/>
+                                </theme-orange>
+                            </theme-orange>
+                            <Ifu_lobunto_logo_web.gif j:height="59"
+                                            j:width="192"
+                                            jcr:mixinTypes="jmix:image"
+                                            jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/gif" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="application/binary" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="application/binary" jcr:primaryType="jnt:resource"/>
+                            </Ifu_lobunto_logo_web.gif>
+                        </themes>
+                    </files>
+                    <contents jcr:primaryType="jnt:contentFolder"/>
+                    <base j:view="lulubarnard-templates"
+                  jcr:mixinTypes="jmix:theme"
+                  jcr:primaryType="jnt:template">
+                        <home jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <above-main-content colNames="teaserZone"
+                                         customColumn="16"
+                                        jcr:primaryType="jnt:customRow">
+                                    <custom-rows-960gs-col1 jcr:primaryType="jnt:contentList">
+                                        <teaserZone j:allowedTypes="jmix:droppableContent" jcr:primaryType="jnt:area"/>
+                                    </custom-rows-960gs-col1>
+                                    <above-main-content-col1 jcr:primaryType="jnt:contentList">
+                                        <teaserZone jcr:primaryType="jnt:area"/>
+                                    </above-main-content-col1>
+                                </above-main-content>
+                                <content colNames="content-col1,content-col2"
+                              customColumn="16"
+                              jcr:primaryType="jnt:customRow"/>
+                                <justBeforeFooter customColumn="16" jcr:primaryType="jnt:customRow"/>
+            </pagecontent>
+                            <content-col1 jcr:primaryType="jnt:contentList">
+                                <maincontent jcr:primaryType="jnt:area"/>
+            </content-col1>
+                            <illustration j:channelIncludeOrExclude="exclude"
+                                j:channelSelection="apple_ipad_ver1 generic_mobile"
+                                jcr:mixinTypes="jmix:channelSelection"
+                                jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:banner"
+                                   j:areaView="easySlider-content"
+                                   jcr:primaryType="jnt:area"/>
+            </illustration>
+                            <teaserZone jcr:primaryType="jnt:contentList">
+                                <area91323 j:allowedTypes="jmix:droppableContent" jcr:primaryType="jnt:area"/>
+            </teaserZone>
+                            <justBeforeFooter-col1 jcr:primaryType="jnt:contentList">
+                                <just-before-footer-area jcr:primaryType="jnt:area"/>
+            </justBeforeFooter-col1>
+          </home>
+                        <simple jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <content colNames="content-col1,content-col2"
+                              customColumn="10, 6 noprint"
+                              jcr:primaryType="jnt:customRow"/>
+            </pagecontent>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:absoluteArea"/>
+            </illustration>
+                            <content-col2 jcr:primaryType="jnt:contentList">
+                                <content-list j:channelIncludeOrExclude="exclude"
+                                   j:channelSelection="apple_ipad_ver1 generic_mobile"
+                                   j:skin="skins.acmebox2"
+                                   j:style="grey"
+                                   jcr:mixinTypes="jmix:acmestyle jmix:channelSelection jmix:skinnable"
+                                   jcr:primaryType="jnt:contentList">
+                                    <navMenu j:baselineNode="home"
+                                 j:maxDepth="3"
+                                 j:menuItemView="menuElement"
+                                 j:startLevel="1"
+                                 j:styleName="navigationN2-2"
+                                 jcr:primaryType="jnt:navMenu"/>
+              </content-list>
+                                <Right-column jcr:primaryType="jnt:area"/>
+            </content-col2>
+                            <content-col1 jcr:primaryType="jnt:contentList">
+                                <pagetitle jcr:primaryType="jnt:pageTitle"/>
+                                <pageBreadcrumb displayCurrentPage="true"
+                                     displayHome="true"
+                                     displayLinkOnCurrentPage="false"
+                                     jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <maincontent j:canDeleteInContribution="true"
+                                  j:canOrderInContribution="true"
+                                  j:contributeTypes="jnt:bigText jnt:mainContent"
+                                  j:editableInContribution="true"
+                                  jcr:mixinTypes="jmix:contributeMode"
+                                  jcr:primaryType="jnt:area"/>
+                                <maincontent2 jcr:primaryType="jnt:area"/>
+            </content-col1>
+          </simple>
+                        <events jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <row1 column="2col106" jcr:primaryType="jnt:row"/>
+            </pagecontent>
+                            <row1-col1 jcr:primaryType="jnt:contentList">
+                                <pageTitle jcr:primaryType="jnt:pageTitle"/>
+                                <breadcrumb displayCurrentPage="true"
+                                 displayHome="true"
+                                 displayLinkOnCurrentPage="false"
+                                 jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <listA jcr:primaryType="jnt:area"/>
+                                <events j:allowedTypes="jnt:event"
+                             j:canDeleteInContribution="true"
+                             j:canOrderInContribution="true"
+                             j:contributeTypes="jnt:event"
+                             j:editableInContribution="true"
+                             jcr:mixinTypes="jmix:contributeMode"
+                             jcr:primaryType="jnt:area"/>
+            </row1-col1>
+                            <row1-col2 j:skin="skins.acmebox2"
+                             jcr:mixinTypes="jmix:acmestyle jmix:skinnable"
+                             jcr:primaryType="jnt:contentList">
+                                <side-menu j:baselineNode="home"
+                                j:channelIncludeOrExclude="exclude"
+                                j:channelSelection="apple_ipad_ver1 generic_mobile"
+                                j:maxDepth="3"
+                                j:startLevel="1"
+                                j:styleName="navigationN2"
+                                jcr:mixinTypes="jmix:channelSelection"
+                                jcr:primaryType="jnt:navMenu"/>
+                                <calendar endDateProperty="endDate"
+                               j:bindedComponent="/modules/lulubarnard-templates/templates/base/events/row1-col1/events"
+                               jcr:primaryType="jnt:calendar"
+                               startDateProperty="startDate"/>
+                                <facets j:bindedComponent="/modules/lulubarnard-templates/templates/base/events/row1-col1/events"
+                             j:type="jnt:event"
+                             jcr:primaryType="jnt:facets">
+                                    <fieldFacet facet="type"
+                                    field="jnt:event;eventsType"
+                                    jcr:primaryType="jnt:fieldFacet"
+                                    limit="100"
+                                    mincount="1"
+                                    missing="false"
+                                    offset="0">
+                                        <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Type"/>
+                                        <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Type"/>
+                </fieldFacet>
+                                    <field-hierarchical-facet facet="Categories"
+                                                  field="jmix:categorized;j:defaultCategory"
+                                                  jcr:primaryType="jnt:fieldHierarchicalFacet"
+                                                  limit="100"
+                                                  mincount="1"
+                                                  missing="false"
+                                                  offset="0"
+                                                  prefix="/sites/systemsite/categories">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Categories"/>
+                                        <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Catégories"/>
+                </field-hierarchical-facet>
+                                    <queryFacet facet="nextEvents"
+                                    jcr:primaryType="jnt:queryFacet"
+                                    mincount="1"
+                                    query="0\:FACET\:startDate:[NOW/DAY TO NOW/MONTH+1MONTH] OR 0\:FACET\:endDate:[NOW/DAY TO NOW/MONTH+1MONTH]">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Next events per month"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##"/>
+                                        <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Prochains évènements par mois"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##"/>
+                </queryFacet>
+                                    <queryFacet-1 facet="nextEvents"
+                                      jcr:primaryType="jnt:queryFacet"
+                                      mincount="1"
+                                      query="0\:FACET\:startDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH]">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Next events per month"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##"/>
+                                        <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Prochains évènements par mois"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##"/>
+                </queryFacet-1>
+                                    <queryFacet-2 facet="nextEvents"
+                                      jcr:primaryType="jnt:queryFacet"
+                                      mincount="1"
+                                      query="0\:FACET\:startDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH]">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Next events per month"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##"/>
+                                        <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Prochains évènements par mois"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##"/>
+                </queryFacet-2>
+                                    <queryFacet-3 facet="nextEvents"
+                                      jcr:primaryType="jnt:queryFacet"
+                                      mincount="1"
+                                      query="0\:FACET\:startDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH]">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Next events per month"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##"/>
+                                        <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Prochains évènements par mois"
+                                             valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##"/>
+                </queryFacet-3>
+              </facets>
+                                <event-right-column-content jcr:primaryType="jnt:area"/>
+            </row1-col2>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:absoluteArea"/>
+            </illustration>
+          </events>
+                        <news jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <content colNames="content-col1,content-col2"
+                              customColumn="10 , 6 noprint"
+                              jcr:primaryType="jnt:customRow"/>
+            </pagecontent>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:absoluteArea"/>
+            </illustration>
+                            <content-col2 jcr:primaryType="jnt:contentList">
+                                <content-list j:channelIncludeOrExclude="exclude"
+                                   j:channelSelection="apple_ipad_ver1 generic_mobile"
+                                   j:skin="skins.acmebox2"
+                                   j:style="white"
+                                   jcr:mixinTypes="jmix:acmestyle jmix:channelSelection jmix:skinnable"
+                                   jcr:primaryType="jnt:contentList">
+                                    <navMenu j:baselineNode="home"
+                                 j:maxDepth="3"
+                                 j:menuItemView="menuElement"
+                                 j:startLevel="1"
+                                 j:styleName="navigationN2-2"
+                                 jcr:primaryType="jnt:navMenu"/>
+              </content-list>
+                                <Right-column jcr:primaryType="jnt:area"/>
+            </content-col2>
+                            <content-col1 jcr:primaryType="jnt:contentList">
+                                <pagetitle jcr:primaryType="jnt:pageTitle"/>
+                                <pageBreadcrumb displayCurrentPage="true"
+                                     displayHome="true"
+                                     displayLinkOnCurrentPage="false"
+                                     jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <maincontent j:allowedTypes="jnt:news"
+                                  j:canDeleteInContribution="true"
+                                  j:canOrderInContribution="true"
+                                  j:contributeTypes="jnt:news"
+                                  j:editableInContribution="true"
+                                  jcr:mixinTypes="jmix:contributeMode"
+                                  jcr:primaryType="jnt:area"/>
+            </content-col1>
+          </news>
+                        <full-page jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <row column="1col16" jcr:primaryType="jnt:row"/>
+            </pagecontent>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:absoluteArea"/>
+            </illustration>
+                            <content-col2 jcr:primaryType="jnt:contentList"/>
+                            <content-col1 jcr:primaryType="jnt:contentList"/>
+                            <row-col1 jcr:primaryType="jnt:contentList">
+                                <pagetitle jcr:primaryType="jnt:pageTitle"/>
+                                <pageBreadcrumb displayCurrentPage="true"
+                                     displayHome="true"
+                                     displayLinkOnCurrentPage="false"
+                                     jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <maincontent jcr:primaryType="jnt:area"/>
+            </row-col1>
+          </full-page>
+                        <publications jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <row1 column="2col115" jcr:primaryType="jnt:row"/>
+            </pagecontent>
+                            <row1-col1 jcr:primaryType="jnt:contentList">
+                                <pageTitle jcr:primaryType="jnt:pageTitle"/>
+                                <breadcrumb displayCurrentPage="true"
+                                 displayHome="true"
+                                 displayLinkOnCurrentPage="false"
+                                 jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <listA jcr:primaryType="jnt:area"/>
+                                <publications j:allowedTypes="jnt:publication" jcr:primaryType="jnt:area"/>
+            </row1-col1>
+                            <row1-col2 jcr:primaryType="jnt:contentList">
+                                <facets j:bindedComponent="/modules/lulubarnard-templates/templates/base/publications/row1-col1/publications"
+                             j:type="jnt:publication"
+                             jcr:primaryType="jnt:facets">
+                                    <field-hierarchical-facet facet="Categories"
+                                                  field="jmix:categorized;j:defaultCategory"
+                                                  jcr:primaryType="jnt:fieldHierarchicalFacet"
+                                                  limit="100"
+                                                  mincount="1"
+                                                  missing="false"
+                                                  offset="0"
+                                                  prefix="/sites/systemsite/categories">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Categories"/>
+                                        <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             label="Catégories"/>
+                </field-hierarchical-facet>
+              </facets>
+            </row1-col2>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:levelAbsoluteArea"/>
+            </illustration>
+          </publications>
+                        <user j:applyOn="jnt:user"
+                     j:defaultTemplate="true"
+                     j:hiddenTemplate="false"
+                     j:priority="10"
+                     jcr:primaryType="jnt:contentTemplate">
+                            <pagecontent j:style="blue"
+                               jcr:mixinTypes="jmix:style"
+                               jcr:primaryType="jnt:contentList">
+                                <custom-rows-960gs customColumn="16" jcr:primaryType="jnt:customRow"/>
+            </pagecontent>
+                            <custom-rows-960gs-col1 jcr:primaryType="jnt:contentList">
+                                <public-profile j:skin="skins.box8"
+                                     j:style="blue"
+                                     jcr:mixinTypes="jmix:skinnable jmix:style"
+                                     jcr:primaryType="jnt:contentList">
+                                    <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Public Profile"/>
+                                    <userDetails j:view="full"
+                                     jcr:mixinTypes="jmix:renderable"
+                                     jcr:primaryType="jnt:userDetails"/>
+              </public-profile>
+            </custom-rows-960gs-col1>
+          </user>
+                        <fullpage j:applyOn="jnt:content"
+                         j:defaultTemplate="false"
+                         j:hiddenTemplate="true"
+                         j:priority="100"
+                         jcr:primaryType="jnt:contentTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <row column="1col16" jcr:primaryType="jnt:row"/>
+            </pagecontent>
+                            <row-col1 jcr:primaryType="jnt:contentList">
+                                <mainResourceDisplay j:mainResourceView="fullpage" jcr:primaryType="jnt:mainResourceDisplay"/>
+            </row-col1>
+          </fullpage>
+                        <pagecontent jcr:primaryType="jnt:contentList">
+                            <content-list-1 j:id="page-header"
+                                  j:skin="skins.custom"
+                                  jcr:mixinTypes="jmix:customSkin jmix:skinnable"
+                                  jcr:primaryType="jnt:contentList">
+                                <content-list j:id="page-header-img"
+                                   j:skin="skins.custom"
+                                   jcr:mixinTypes="jmix:customSkin jmix:skinnable"
+                                   jcr:primaryType="jnt:contentList">
+                                    <header colNames="header-col1,header-col2"
+                                customColumn="4,4,8"
+                                divID="header"
+                                jcr:primaryType="jnt:customRow">
+                                        <header-col3 jcr:primaryType="jnt:contentList">
+                                            <Header-right jcr:primaryType="jnt:absoluteArea"/>
+                                        </header-col3>
+                                    </header>
+                                    <headerBottom colNames="leftheaderBottom-left,leftheaderBottom-center,leftheaderBottom-right"
+                                      customColumn="3,11,2"
+                                      divID="headerBottom"
+                                      jcr:primaryType="jnt:customRow"/>
+                                    <illustration colNames="illustration-colContent"
+                                      customColumn="16"
+                                      divID="illustration"
+                                      jcr:primaryType="jnt:customRow"/>
+              </content-list>
+            </content-list-1>
+                            <content-1 j:id="content"
+                             j:skin="skins.custom"
+                             jcr:mixinTypes="jmix:customSkin jmix:skinnable"
+                             jcr:primaryType="jnt:contentList">
+                                <j:translation_en jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="content"/>
+                                <pagecontent jcr:primaryType="jnt:area"/>
+            </content-1>
+                            <footerTop colNames="footerTop-col1,footerTop-col2,footerTop-col3,footerTop-col4,,footerTop-col5"
+                             customColumn="3,6,4,3,16"
+                             divClass=" noprint"
+                             divID="footerTop"
+                             jcr:primaryType="jnt:customRow"/>
+          </pagecontent>
+                        <headerBottom-colContent jcr:primaryType="jnt:contentList"/>
+                        <header-col1 j:channelIncludeOrExclude="exclude"
+                            j:channelSelection="apple_ipad_ver1 generic_mobile"
+                            jcr:mixinTypes="jmix:channelSelection"
+                            jcr:primaryType="jnt:contentList">
+                            <image-from-the-document-manager j:linkType="none" jcr:primaryType="jnt:imageReferenceLink">
+                                <j:translation_en j:node="/modules/lulubarnard-templates/templates/files/themes/Ifu_lobunto_logo_web.gif"
+                                       jcr:language="en"
+                                       jcr:primaryType="jnt:translation"/>
+                            </image-from-the-document-manager>
+                        </header-col1>
+                        <footerTop-col1 j:channelIncludeOrExclude="exclude"
+                               j:channelSelection="apple_ipad_ver1 generic_mobile"
+                               jcr:mixinTypes="jmix:channelSelection"
+                               jcr:primaryType="jnt:contentList">
+                            <topfooter1 jcr:primaryType="jnt:absoluteArea">
+                                <rich-text jcr:primaryType="jnt:bigText">
+                                    <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;&#xA; Commentaires&lt;/h3&gt;&#xA;"/>
+                                    <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;&#xA; Last Comments&lt;/h3&gt;&#xA;"/>
+              </rich-text>
+            </topfooter1>
+          </footerTop-col1>
+                        <footerTop-col3 j:channelIncludeOrExclude="exclude"
+                               j:channelSelection="apple_ipad_ver1 generic_mobile"
+                               jcr:mixinTypes="jmix:channelSelection"
+                               jcr:primaryType="jnt:contentList">
+                            <topfooter3 jcr:primaryType="jnt:absoluteArea"/>
+          </footerTop-col3>
+                        <footer-col1 jcr:primaryType="jnt:contentList">
+                            <footer-left j:deletionDate="2012-01-24T16:01:38.569+01:00"
+                               j:deletionUser="root"
+                               jcr:mixinTypes="jmix:markedForDeletion jmix:markedForDeletionRoot"
+                               jcr:primaryType="jnt:absoluteArea"/>
+          </footer-col1>
+                        <content-colContent jcr:primaryType="jnt:contentList"/>
+                        <header-col2 jcr:primaryType="jnt:contentList">
+                            <content-list j:id="jahia-tools"
+                                j:skin="skins.custom"
+                                jcr:mixinTypes="jmix:customSkin jmix:skinnable"
+                                jcr:primaryType="jnt:contentList">
+                                <link-to-contribute-mode j:requireLoggedUser="false"
+                                              j:requirePrivilegedUser="false"
+                                              j:requiredPermissionNames="contributeModeAccess"
+                                              jcr:mixinTypes="jmix:requiredPermissions"
+                                              jcr:primaryType="jnt:gotoContribute"/>
+                                <link-to-edit-mode j:requireLoggedUser="false"
+                                        j:requirePrivilegedUser="false"
+                                        j:requiredPermissionNames="editModeAccess"
+                                        jcr:mixinTypes="jmix:requiredPermissions"
+                                        jcr:primaryType="jnt:gotoEdit"/>
+                            </content-list>
+                        </header-col2>
+                        <footerTop-col4 jcr:primaryType="jnt:contentList">
+                            <topfooter4 jcr:primaryType="jnt:absoluteArea"/>
+          </footerTop-col4>
+                        <footer-col2 jcr:primaryType="jnt:contentList">
+                            <footer-right jcr:primaryType="jnt:absoluteArea"/>
+          </footer-col2>
+                        <illustration-colContent jcr:primaryType="jnt:contentList">
+                            <illustration jcr:primaryType="jnt:area"/>
+          </illustration-colContent>
+                        <leftheaderBottom-left jcr:primaryType="jnt:contentList">
+                            <content-list j:id="logo-top"
+                                j:skin="skins.custom"
+                                jcr:mixinTypes="jmix:customSkin jmix:skinnable"
+                                jcr:primaryType="jnt:contentList">
+                                <headerBottom-left jcr:primaryType="jnt:absoluteArea"/>
+            </content-list>
+                            <rich-text jcr:primaryType="jnt:bigText">
+                                <j:translation_en jcr:language="en"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;p&gt;&amp;nbsp;&lt;/p&gt;"/>
+                                <j:translation_fr jcr:language="fr"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;p&gt;&amp;nbsp;&lt;/p&gt;"/>
+            </rich-text>
+          </leftheaderBottom-left>
+                        <leftheaderBottom-riht jcr:primaryType="jnt:contentList"/>
+                        <leftheaderBottom-center jcr:primaryType="jnt:contentList">
+                            <navMenu j:baselineNode="home"
+                           j:maxDepth="2"
+                           j:menuItemView="menuElement"
+                           j:startLevel="0"
+                           j:styleName="navigation"
+                           jcr:primaryType="jnt:navMenu"/>
+          </leftheaderBottom-center>
+                        <leftheaderBottom-right jcr:primaryType="jnt:contentList">
+                            <headerBottom-right jcr:primaryType="jnt:absoluteArea"/>
+          </leftheaderBottom-right>
+                        <footerTop-col5 jcr:primaryType="jnt:contentList">
+                            <topfooter5 jcr:primaryType="jnt:absoluteArea"/>
+          </footerTop-col5>
+                        <footerTop-col2 j:channelIncludeOrExclude="exclude"
+                               j:channelSelection="apple_ipad_ver1 generic_mobile"
+                               jcr:mixinTypes="jmix:channelSelection"
+                               jcr:primaryType="jnt:contentList">
+                            <rich-text jcr:primaryType="jnt:bigText">
+                                <j:translation_fr jcr:language="fr"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;h3&gt;&#xA; Derniers commentaires&lt;/h3&gt;&#xA;"/>
+                                <j:translation_en jcr:language="en"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;h3&gt;&#xA; Last Comments&lt;/h3&gt;&#xA;"/>
+            </rich-text>
+                            <jcr-query j:className="simple"
+                             j:subNodesView="commentLink"
+                             j:view="unordered"
+                             jcr:language="JCR-SQL2"
+                             jcr:mixinTypes="jmix:listOrdered jmix:renderable"
+                             jcr:primaryType="jnt:query"
+                             jcr:statement="select * from [jnt:post] as comments order by comments.[jcr:lastModified] desc"
+                             maxItems="4"/>
+            </footerTop-col2>
+                        <test-page-template j:hiddenTemplate="false" jcr:primaryType="jnt:pageTemplate">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="test-page-template"/>
+                        </test-page-template>
+        </base>
+      </templates>
+                
+                <home changefreq="monthly"
+               j:isHomePage="true"
+               j:templateName="home"
+               jcr:mixinTypes="jmix:sitemap"
+               jcr:primaryType="jnt:page"
+               priority="0.5">
+                    <j:translation_en jcr:language="en"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <header-col1 jcr:primaryType="jnt:contentList">
+                        <header-left jcr:primaryType="jnt:absoluteArea"/>
+        </header-col1>
+                    <header-col2 jcr:primaryType="jnt:contentList">
+                        <header-right jcr:primaryType="jnt:absoluteArea"/>
+        </header-col2>
+                    <header-left jcr:primaryType="jnt:contentList"/>
+                    <headerBottom-left jcr:primaryType="jnt:contentList"/>
+                    <headerBottom-left-1 jcr:primaryType="jnt:contentList"/>
+      </home>
+                <search-results changefreq="monthly"
+                         j:templateName="full-page"
+                         jcr:mixinTypes="jmix:sitemap"
+                         jcr:primaryType="jnt:page"
+                         priority="0.5">
+                    <j:translation_en jcr:language="en"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Search results"/>
+                    <maincontent jcr:primaryType="jnt:contentList">
+                        <advanced-search jcr:primaryType="jnt:advancedSearchForm">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Advanced search"/>
+          </advanced-search>
+                        <pager displayNbOfItemsPerPage="true"
+                      displayPager="true"
+                      j:bindedComponent="/modules/lulubarnard-templates/search-results/maincontent/search-results"
+                      jcr:primaryType="jnt:pager"
+                      nbOfPages="10"
+                      pageSize="10"/>
+                        <search-results autoSuggest="true"
+                               autoSuggestHitCount="2"
+                               autoSuggestMinimumHitCount="2"
+                               jcr:primaryType="jnt:searchResults">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Search results"/>
+          </search-results>
+        </maincontent>
+      </search-results>
+    </lulubarnard-templates>
+    </modules>
+</content>

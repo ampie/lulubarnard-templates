@@ -1,5 +1,7 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.next
-release.properties
+/.classpath
+/.project
+/.settings
+.idea
+*.iml
+*.ipr
+target

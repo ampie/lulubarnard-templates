@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jahia.modules</groupId>
+    <artifactId>jahia-modules</artifactId>
+    <version>7.0.0.0</version>
+  </parent>
+  <artifactId>lulubarnard-templates</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>bundle</packaging>
+  <name>Lulu Barnard Templates</name>
+  <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
+  <scm>
+    <connection>scm:git:git@github.com:ampie/lulubarnard-templates.git</connection>
+    <developerConnection>scm:git:git@github.com:ampie/lulubarnard-templates.git</developerConnection>
+    <url>scm:git:git@github.com:ampie/lulubarnard-templates.git</url>
+  </scm>
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>jahia-public</id>
+      <name>Jahia Public Repository</name>
+      <url>https://devtools.jahia.com/nexus/content/groups/public</url>
+    </repository>
+  </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Jahia-Depends>default,grid,calendar,event,facets,news,search,sitemap,skins,default-skins,blog,rating,profile</Jahia-Depends>
+            <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
+          </instructions>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
